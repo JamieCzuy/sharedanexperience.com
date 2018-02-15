@@ -1,6 +1,7 @@
 # Folders to Ignore
 data/
 env_files/
+__pycache__/
 
 # Files to Ignore
 db.sqlite3
