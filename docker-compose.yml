@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  db:
+    # Keep same as AWS Aurora Postgres
+    image: postgres:9.6.3
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+
