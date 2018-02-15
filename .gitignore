@@ -1,0 +1,7 @@
+# Folders to Ignore
+data/
+env_files/
+
+# Files to Ignore
+db.sqlite3
+.DS_Store
