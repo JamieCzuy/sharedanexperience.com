@@ -11,7 +11,7 @@ Versioning:
 
 * Every new deployment should have a new version number (at least a patch level change).
 
-Use one of these commands to up the appropriate level:
+* Use one of these commands to up the appropriate level:
 ```
 bumpversion patch
 bumpversion minor
@@ -19,6 +19,6 @@ bumpversion minor
 bumpversion major
 ```
 
-*Note:* bumbversion is in the `requirements.txt` and install through `pip`
+**Note:** bumbversion is in the `requirements.txt` and install through `pip`
 
-*Note:* The configuration file for bumpversion is the hidden file: `.bumpversion.cfg`
+**Note:** The configuration file for bumpversion is the hidden file: `.bumpversion.cfg`
