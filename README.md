@@ -1,4 +1,5 @@
-# sharedanexperience.com (v0.0.1)
+sharedanexperience.com (v0.0.1)
+===
 Website for People that have Shared An Experience
 
 
@@ -19,6 +20,6 @@ bumpversion minor
 bumpversion major
 ```
 
-**Note:** bumbversion is in the `requirements.txt` and install through `pip`
+**Note:** bumpversion is in the `requirements.txt` and install through `pip`
 
 **Note:** The configuration file for bumpversion is the hidden file: `.bumpversion.cfg`
