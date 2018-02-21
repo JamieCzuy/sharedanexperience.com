@@ -18,3 +18,9 @@ six==1.11.0
 psycopg2-binary==2.7.4
 
 
+# bumpversion (as of 2018-02-20 - no dependencies)
+
+bumpversion==0.5.3
+
+
+
