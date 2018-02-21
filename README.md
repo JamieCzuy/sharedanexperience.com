@@ -1,11 +1,11 @@
-# sharedanexperience.com (v0.0.0)
+# sharedanexperience.com (v0.0.1)
 Website for People that have Shared An Experience
 
 
 
 Versioning:
 ---
-The current version is (v0.0.0)
+The current version is (v0.0.1)
 The three parts are major.minor.patch
 Versioning is maintained by [bumpversion](https://pypi.python.org/pypi/bumpversion)
 
