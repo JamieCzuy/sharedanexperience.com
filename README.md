@@ -9,7 +9,7 @@ The current version is (v0.0.1)
 The three parts are major.minor.patch
 Versioning is maintained by [bumpversion](https://pypi.python.org/pypi/bumpversion)
 
-Every new deployment should have a new version number (at least a pathc level change).
+Every new deployment should have a new version number (at least a patch level change).
 
 Use one of these commands to up the appropriate level:
 ```
