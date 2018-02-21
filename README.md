@@ -20,6 +20,14 @@ bumpversion minor
 bumpversion major
 ```
 
+* bumpversion updates the files listed in the config file and does a git tag and commit.
+
+**NOTE:** You must run git push after bumpversion and use the `--tags` option
+to have the tag pushed as well as the files with updated version numbers:
+```
+git push --tags
+```
+
 **Note:** bumpversion is in the `requirements.txt` and install through `pip`
 
 **Note:** The configuration file for bumpversion is the hidden file: `.bumpversion.cfg`
