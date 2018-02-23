@@ -1,6 +1,6 @@
-echo "Runserver locally (with auto-reloading) using dockerd database"
+echo "Runserver locally (with auto-reloading) using dockerd database (using local folder)"
 
-echo "Source local.env file"
+echo "Sourcing local.env file"
 source ./env_files/local.env
 
 echo "Starting dockered database"

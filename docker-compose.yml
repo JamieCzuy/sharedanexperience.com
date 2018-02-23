@@ -1,12 +1,37 @@
 version: '3'
 
+networks:
+  private:
+
 services:
   db:
     # Keep same as AWS Aurora Postgres
     image: postgres:9.6.3
+    networks:
+      - private
     ports:
       - "5432:5432"
     volumes:
       - ./data:/var/lib/postgresql/data
 
-
+  web:
+    build: .
+    env_file:
+      - env_files/dockered.env
+    image: web:latest
+    command: python manage.py runserver 0.0.0.0:8000
+    depends_on:
+      - db
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.1"
+      restart_policy:
+        condition: on-failure
+    networks:
+      - private
+    ports:
+      - "8800:8000"
+    volumes:
+      - .:/code
