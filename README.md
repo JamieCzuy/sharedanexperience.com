@@ -3,6 +3,26 @@ sharedanexperience.com (v0.0.1)
 Website for People that have Shared An Experience
 
 
+Repo Folder Structure:
+---
+**./bin** - DevOp scripts
+**./data** - Local Postgres data file (not checked into GitHub)
+**./django** - The Django project and app (manage.py is in this folder)
+**./documentation** - User docs, API docs, Design docs
+**./env_files** - Environment variable files (**Private** - not checked into GitHub)
+**./test_cases** - Functional testing / text cases
+
+
+DevOps Scripts:
+---
+* dev_locally.sh
+  * Creates a dockered Postgres container which uses local ./data folder
+  * Runs the django project locally (runserver)
+
+* run_dockered.sh
+  * Creates a dockered Postgres container which uses local ./data folder
+  * Creates a dockered django project container which uses the local ./django folder
+
 
 Versioning:
 ---

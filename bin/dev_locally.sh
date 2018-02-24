@@ -1,3 +1,4 @@
+echo "Dev Locally:"
 echo "Runserver locally (with auto-reloading) using dockerd database (using local folder)"
 
 echo "Sourcing local.env file"
@@ -14,14 +15,14 @@ done
 echo "Making Migrations (just in case)"
 echo "  For:"
 echo "      The Project:"
-python manage.py makemigrations
+python django/manage.py makemigrations
 for APP in 'people'; do
     echo "      The ${APP} App:"
-    python manage.py makemigrations ${APP}
+    python django/manage.py makemigrations ${APP}
 done
 
 echo "Migrate (just in case)"
-python manage.py migrate
+python django/manage.py migrate
 
 if [ -z "${PORT}" ]; then
     PORT=8000
@@ -29,7 +30,7 @@ fi
 echo ""
 echo "Running server (on ${PORT})"
 echo ""
-python manage.py runserver ${PORT}
+python django/manage.py runserver ${PORT}
 
 echo ""
 echo ""
