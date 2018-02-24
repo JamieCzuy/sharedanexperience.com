@@ -1,4 +1,5 @@
-echo "Run Dockered: both server and database in docker containers (using local folders)"
+echo "Run Dockered:"
+echo "Run both server and database in docker containers (using local folders)"
 
 echo "Sourcing dockered.env file"
 source ./env_files/dockered.env

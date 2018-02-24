@@ -3,6 +3,15 @@ sharedanexperience.com (v0.0.1)
 Website for People that have Shared An Experience
 
 
+Repo Folder Structure:
+---
+**./bin** - DevOp scripts
+**./data** - Local Postgres data file (not checked into GitHub)
+**./django** - The Django project and app (manage.py is in this folder)
+**./documentation** - User docs, API docs, Design docs
+**./env_files** - Environment variable files (**Private** - not checked into GitHub)
+**./test_cases** - Functional testing / text cases
+
 
 Versioning:
 ---
