@@ -1,0 +1,31 @@
+# Required for TestCases (Functional Testing)
+# -------------------------------------------
+
+# pytest with dependencies as of 2018-02-24
+
+pytest==3.4.1
+
+attrs==17.4.0
+pluggy==0.6.0
+py==1.5.2
+six==1.11.0
+
+# pytest-selenium with dependencies as of 2018-02-24
+
+pytest-selenium==1.11.4
+
+attrs==17.4.0
+certifi==2018.1.18
+chardet==3.0.4
+idna==2.6
+pluggy==0.6.0
+py==1.5.2
+pytest==3.4.1
+pytest-base-url==1.4.1
+pytest-html==1.16.1
+pytest-metadata==1.6.0
+pytest-variables==1.7.1
+requests==2.18.4
+selenium==3.9.0
+six==1.11.0
+urllib3==1.22
