@@ -13,6 +13,17 @@ Repo Folder Structure:
 **./test_cases** - Functional testing / text cases
 
 
+DevOps Scripts:
+---
+* dev_locally.sh
+  * Creates a dockered Postgres container which uses local ./data folder
+  * Runs the django project locally (runserver)
+
+* run_dockered.sh
+  * Creates a dockered Postgres container which uses local ./data folder
+  * Creates a dockered django project container which uses the local ./django folder
+
+
 Versioning:
 ---
 * The current version is (v0.0.1)
