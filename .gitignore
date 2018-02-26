@@ -3,6 +3,7 @@ data/
 env_files/
 __pycache__/
 .pytest_cache/
+__pytest_cache__/
 
 # Files to Ignore
 .coverage
