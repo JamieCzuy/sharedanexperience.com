@@ -1,17 +1,22 @@
 import pytest
 
 
+def pytest_addoption(parser):
+    group = parser.getgroup('selenium', 'selenium')
+    group._addoption('--headless',
+                     action='store_true',
+                     help='enable headless mode for supported browsers.')
+
+
 @pytest.fixture
 def chrome_options(chrome_options, pytestconfig):
-    capabilities = dict(pytestconfig.option.capabilities)
-    if 'true' == capabilities.get('headless', 'false').lower():
+    if pytestconfig.getoption('headless'):
         chrome_options.add_argument('headless')
     return chrome_options
 
 
 @pytest.fixture
 def firefox_options(firefox_options, pytestconfig):
-    capabilities = dict(pytestconfig.option.capabilities)
-    if 'true' == capabilities.get('headless', 'false').lower():
+    if pytestconfig.getoption('headless'):
         firefox_options.set_headless(True)
     return firefox_options
