@@ -8,6 +8,7 @@ __pycache__/
 .pytest_cache/
 __pytest_cache__/
 staticfiles/
+tmp/
 
 # Files to Ignore
 .coverage
