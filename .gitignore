@@ -1,9 +1,13 @@
+# FOR NOW IGNORE MIGRATIONS
+migrations/
+
 # Folders to Ignore
 data/
 env_files/
 __pycache__/
 .pytest_cache/
 __pytest_cache__/
+staticfiles/
 
 # Files to Ignore
 .coverage
