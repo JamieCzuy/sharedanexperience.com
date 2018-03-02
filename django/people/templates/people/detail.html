@@ -1,3 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
 <h1>Nickname: {{ person.nickname }}</h1>
 <h2>Full Name: {{ person.full_name }}</h2>
 <p>
@@ -5,3 +9,4 @@ Created: {{ person.created }}
 <p>
 Last Modified: {{ person.modified }}
 
+{% endblock content %}
