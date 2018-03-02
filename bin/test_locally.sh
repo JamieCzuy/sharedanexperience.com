@@ -1,7 +1,7 @@
 echo "test_locally"
 echo "Running pytest to locally Test All Test Cases (Functional Testing)"
 
-pytest testcases
+pytest $@ testcases
 
 if [[ "$?" == "0" ]]; then
     echo "PASS"
