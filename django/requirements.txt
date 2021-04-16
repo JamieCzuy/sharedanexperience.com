@@ -6,7 +6,7 @@ pytz==2018.3
 
 # django-debug-toolbar (as of 2018-02-28 with dependencies)
 
-django-debug-toolbar==1.9.1
+django-debug-toolbar==1.11.1
 Django==2.0.2
 pytz==2018.3
 sqlparse==0.2.4
