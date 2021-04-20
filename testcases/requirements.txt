@@ -7,7 +7,7 @@ pytest==3.4.1
 
 attrs==17.4.0
 pluggy==0.6.0
-py==1.5.2
+py==1.10.0
 six==1.11.0
 
 # pyrtest-cov with dependencies as of 2018-02-24
@@ -17,7 +17,7 @@ pytest-cov==2.5.1
 attrs==17.4.0
 coverage==4.5.1
 pluggy==0.6.0
-py==1.5.2
+py==1.10.0
 pytest==3.4.1
 six==1.11.0
 
@@ -30,7 +30,7 @@ certifi==2018.1.18
 chardet==3.0.4
 idna==2.6
 pluggy==0.6.0
-py==1.5.2
+py==1.10.0
 pytest==3.4.1
 pytest-base-url==1.4.1
 pytest-html==1.16.1
