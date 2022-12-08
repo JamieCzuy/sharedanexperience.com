@@ -26,7 +26,7 @@ six==1.11.0
 pytest-selenium==1.11.4
 
 attrs==17.4.0
-certifi==2018.1.18
+certifi==2022.12.7
 chardet==3.0.4
 idna==2.6
 pluggy==0.6.0
